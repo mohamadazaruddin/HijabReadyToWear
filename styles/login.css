@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    position: relative;
+    height: 100%;
+    margin: 0;
+    background-color: #7d4e38;
+}
+
+@import url(//fonts.googleapis.com/css?family=Lato:300:400);
+
+
+h2 {
+    color: #7b4d3c;
+    font-weight: 800;
+    margin-top: 10px;
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 1px;
+    font-size: 14px;
+    color: #333333;
+}
+
+.header {
+    position: relative;
+    text-align: center;
+    background: linear-gradient(60deg, #f9f2e7 0%, #f9f2e7 100%);
+    color: white;
+}
+
+.logo {
+    width: 50px;
+    fill: white;
+    padding-right: 15px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.inner-header {
+    height: 65vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.login-box {
+    padding: 15px;
+    background: rgb(255 255 255);
+    /* position: absolute; */
+    /* left: 50%; */
+    /* z-index: 100; */
+    /* top: 50%; */
+    margin: auto;
+    text-align: center;
+    /* transform: translate(-50%, -50%); */
+    width: 350px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 18px #7b4d3ca3;
+
+
+}
+
+.input-div {
+    margin-top: 15px;
+}
+
+.input-div input {
+    border: none;
+    border-bottom: 1px solid #7b4d3c;
+    padding: 10px 5px;
+    width: 100%;
+    font-size: 18px;
+}
+
+.input-div input:focus {
+    outline: none !important;
+    border: none;
+    border-bottom: 3px solid #7b4d3c;
+}
+
+#login-btn {
+    padding: 10px 0px;
+    background: #7b4d3c;
+    width: 100%;
+    margin-top: 30px;
+    border-radius: 6px;
+    border: none;
+    font-size: 15px;
+    color: #f9f2e9;
+}
+
+.signintext {
+    font-size: 13px;
+    color: #525050;
+    margin-top: 25px;
+    /* text-align: left; */
+    margin-bottom: 5px;
+}
+
+.flex {
+    /*Flexbox for containers*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.content {
+    position: relative;
+    height: 20vh;
+    text-align: center;
+    background-color: white;
+}
+
+
+
+label {
+    color: #724c3ab8;
+}
+
+
+
+/*Shrinking for mobile*/
+@media (max-width: 768px) {
+    .waves {
+        height: 40px;
+        min-height: 40px;
+    }
+
+    .content {
+        height: 30vh;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    .login-box {
+        padding: 15px;
+        background: rgb(255 255 255);
+        /* position: absolute; */
+        /* left: 50%; */
+        /* z-index: 100; */
+        /* top: 50%; */
+        margin: auto;
+        text-align: center;
+        /* transform: translate(-50%, -50%); */
+        width: 250px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 18px #7b4d3ca3;
+
+
+    }
+}
