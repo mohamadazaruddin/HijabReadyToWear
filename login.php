@@ -1,3 +1,33 @@
+<?php
+$login = false;
+$error = false;
+if($_SERVER["REQUEST_METHOD"] == "POST"){
+include "db.php";
+$username =$_POST["uname"];
+$password =$_POST["password"];
+if($username && $password !== ""){
+    $sql ="SELECT * FROM users where  username='$username' and password='$password'";
+    $result = mysqli_query($conn, $sql);
+    $num = mysqli_num_rows($result);
+if($num ==1){
+$login = true;
+echo '<div id="snackbar" class="bg-danger show"> login in success </div>';
+session_start();
+$_SESSION['loggedin'] = true;
+$_SESSION['user'] = $username;
+header("location: index.php");
+}
+else{
+  $error ="invalid credentials";
+}
+  }
+else{
+   $error = "missing credentials";
+}
+
+
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -19,17 +49,27 @@
 <body>
     
     <?php include_once 'loginheader.php'?>
+        <?php
+if($_SERVER["REQUEST_METHOD"] == "POST"){
+    if($error){
+    echo '
+        <div id="snackbar" class="bg-danger show" >' . $error . '</div>
+        ';
+    }
+}
+
+?>
     <div class="maindiv py-5">
             <div class="login-box">
 
                 <h2>Login</h2>
-                <form action="/action_page.php" method="post">
+                <form action="/HijabReadyToWear/login.php" method="post">
                     <div class="container">
                         <div class="input-div">
                             <input type="text" placeholder=" Username" name="uname" required>
                         </div>
                         <div class="input-div">
-                            <input type="password" placeholder=" Password" name="psw" required>
+                            <input type="password" placeholder=" Password" name="password" required>
                         </div>
                         <button id="login-btn" type="submit">Login</button>
                         <p class="signintext">Doesn't have an Account ? <a href="signup.php">Sign in</a></p>

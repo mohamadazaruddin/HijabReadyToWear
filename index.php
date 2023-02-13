@@ -1,3 +1,11 @@
+
+<?php 
+session_start();
+if($_SESSION['user']){
+  echo '<div id="snackbar" class="bg-success">logged in succesfully</div>';
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -161,6 +169,10 @@
       document.getElementsByClassName("waterfall")[0].style.display = "none";
       document.getElementById("main").style.display = "block";
     }
+      
+ var x = document.getElementById("snackbar");
+  x.className = "show";
+  setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
   </script>
 </body>
 
