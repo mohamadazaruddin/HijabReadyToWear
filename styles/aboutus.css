@@ -1,0 +1,41 @@
+.aboutus-title h1 {
+    font-size: 50px;
+    font-weight: 600;
+    color: #000;
+}
+
+.aboutus-title p {
+    font-size: 24px;
+    color: #00000094;
+}
+
+.aboutus-image img {
+    height: 350px;
+    width: 350px;
+}
+
+.sections {
+    max-width: 600px;
+    margin: auto;
+}
+
+.legends {
+    font-size: 28px;
+    font-weight: 600;
+    color: #000;
+}
+
+.contents {
+    font-size: 18px;
+    margin-top: 20px;
+    color: #00000094;
+}
+
+
+.aboutus {
+    background-color: #f9f2e7;
+}
+
+.aboutus-icons {
+    font-size: 24px;
+}

@@ -35,7 +35,7 @@
                 <p class="solidtext">Useful links</p>
               </li>
               <li><a href="#">Features</a></li>
-              <li><a href="#">Tutorial</a></li>
+              <li><a href="#">Contact us</a></li>
               <li><a href="#">Login</a></li>
               <li><a href="#">Feedback</a></li>
             </ul>
@@ -59,14 +59,11 @@
               <li>
                 <p class="solidtext">Address</p>
               </li>
-              <li><a href="#"> No 62/64 3rd Floor Zaveri House Huges Road Grant Road, Mumbai,Mumbai,400007,India</a>
+              <li style="color: #b4b4b4;"> Plot No. 26/L/2 Shivaji Nagar Govandi Mumbai, Opposite Madina Masjid, Govandi West,Road  No. 1 Mumbai - 400043 Maharashtra, India
               </li>
             </ul>
           </div>
         </div>
-        <div class="text-center devinfo">
-          <p>This website is developed by <a href="https://www.instagram.com/azharrr.ig/" target="_blank">@Azhar</a>
-          </p>
-        </div>
+        
       </div>
     </footer>

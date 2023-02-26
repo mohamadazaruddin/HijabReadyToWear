@@ -9,16 +9,16 @@
       </div>
       <nav class="mynav d-flex justify-content-center bg-dark" >
         <ul>
+          <li >
+            <a href="/HiJAbREADYTOWEAR/index.php">Home</a>
+          </li>
+          <li>
+            <a href="features.php">Features</a>
+          </li>
+          <li>
+            <a href="aboutus.php">About Us</a>
+          </li>
           <li class="activenav">
-            <a href="#">Home</a>
-          </li>
-          <li>
-            <a href="#">Features</a>
-          </li>
-          <li>
-            <a href="#">About Us</a>
-          </li>
-          <li>
             <a href="login.php">Login</a>
           </li>
         </ul>

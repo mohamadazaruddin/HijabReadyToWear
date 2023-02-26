@@ -21,6 +21,16 @@ body {
     font-size: 8px;
 }
 
+p {
+    margin: 0;
+    padding: 0;
+}
+
+#card-img {
+    height: 300px !important;
+}
+
+
 .logo {
     background-color: #f9f2e7;
     width: 100%;
@@ -81,7 +91,7 @@ ul {
 .cover {
     height: 100%;
     width: 100%;
-    background: #00000085;
+    background: #0000004d;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -93,10 +103,23 @@ ul {
     color: #ffffff;
 }
 
+.herotext h1 {
+    font-size: 65px;
+    font-weight: 600;
+}
+
+.herotext p {
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: 5px;
+}
+
 .swiper {
     width: 100%;
     height: 100%;
 }
+
+
 
 .swiper-slide {
     background-position: center;
@@ -238,12 +261,14 @@ ul {
     border-radius: 0;
     padding: 5px 15px;
     /* font-size: 16px; */
+    color: #ffffff;
+    background-color: #000;
     font-weight: 600;
 }
 
 .shopbtn:hover {
-    background-color: #000000;
-    color: #ffffff;
+    background-color: transparent;
+    color: #000;
     border: 2px solid black;
 }
 
@@ -319,6 +344,15 @@ footer li a {
     background-color: #25D366;
 }
 
+.price {
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.price i {
+    font-size: 12px;
+}
+
 #snackbar {
     visibility: hidden;
     transform: translateX(-50%);
@@ -339,6 +373,8 @@ footer li a {
     -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
     animation: fadein 0.5s, fadeout 0.5s 2.5s;
 }
+
+
 
 @-webkit-keyframes fadein {
     from {
@@ -388,11 +424,18 @@ footer li a {
     }
 }
 
+
 @media only screen and (max-width: 768px) {
 
     .mynav ul li {
         padding: 5px;
         font-size: 10px;
+    }
+
+    .mynav ul li a {
+        color: #ffffff;
+        padding: 0px 5px !important;
+        text-decoration: none;
     }
 
     .divforslider {
@@ -426,6 +469,7 @@ footer li a {
 
     .card-title {
         font-size: 16px;
+        margin: 0;
     }
 
     .card-text {
@@ -445,5 +489,20 @@ footer li a {
         background-color: #25D366;
         font-size: 25px;
         color: white;
+    }
+
+    #card-img {
+        height: 200px !important;
+    }
+
+    .herotext h1 {
+        font-size: 30px;
+        font-weight: 600;
+    }
+
+    .herotext p {
+        font-size: 16px;
+        font-weight: 400;
+        letter-spacing: 2px;
     }
 }

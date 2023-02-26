@@ -44,7 +44,7 @@ else{
     <link rel="stylesheet" href="./styles/login.css" />
     <script src="https://kit.fontawesome.com/7f5049b87a.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
-    <title>Document</title>
+     <title>Hijab Ready to Wear</title>
 </head>
 
 <body>

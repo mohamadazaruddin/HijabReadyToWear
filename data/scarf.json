@@ -1,0 +1,107 @@
+[
+  {
+    "id": 1,
+    "title": "FIG lavender",
+    "description": "premium Georgette hijab",
+    "price": "199",
+    "image": "./images/scarf1.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Candy               ",
+    "description": "premium Georgette hijab",
+    "price": "199",
+    "image": "./images/scarf2.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Mauve               ",
+    "description": "premium Georgette hijab",
+    "price": "199",
+    "image": "./images/scarf3.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Teal     ",
+    "description": "premium Georgette hijab",
+    "price": "199",
+    "image": "./images/scarf4.jpg"
+  },
+  {
+    "id": 5,
+    "title": "Smoke              ",
+    "description": "premium Georgette hijab",
+    "price": "199",
+    "image": "./images/scarf5.jpg"
+  },
+  {
+    "id": 6,
+    "title": "Bubblegum      ",
+    "description": "premium Georgette hijab",
+    "price": "199",
+    "image": "./images/scarf6.jpg"
+  },
+  {
+    "id": 7,
+    "title": "Pista                 ",
+    "description": "premium Georgette hijab",
+    "price": "199",
+    "image": "./images/scarf7.jpg"
+  },
+  {
+    "id": 8,
+    "title": "White               ",
+    "description": "premium Georgette hijab",
+    "price": "199",
+    "image": "./images/scarf8.jpg"
+  },
+  {
+    "id": 9,
+    "title": "Palm Nut",
+    "description": "premium Georgette hijab",
+    "price": "199",
+    "image": "./images/scarf9.jpg"
+  },
+  {
+    "id": 10,
+    "title": "Powder Blue",
+    "description": "premium Georgette hijab",
+    "price": "199",
+    "image": "./images/scarf10.jpg"
+  },
+  {
+    "id": 11,
+    "title": "Mocha              ",
+    "description": "premium Georgette hijab",
+    "price": "199",
+    "image": "./images/scarf11.jpg"
+  },
+  {
+    "id": 12,
+    "title": "SeaGreen",
+    "description": "premium Georgette hijab",
+    "price": "199",
+    "image": "./images/scarf12.jpg"
+  },
+  {
+    "id": 13,
+    "title": "Off White",
+    "description": "premium Georgette hijab",
+    "price": "199",
+    "image": "./images/scarf13.jpg"
+  },
+  {
+    "id": 14,
+    "title": "Blush",
+    "description": "premium Georgette hijab",
+    "price": "199",
+    "image": "./images/scarf14.jpg"
+  },
+  {
+    "id": 15,
+    "title": "Black",
+    "description": "premium Georgette hijab",
+    "price": "199",
+    "image": "./images/scarf15.jpg"
+  }
+]

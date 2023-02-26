@@ -12,7 +12,7 @@ $res= mysqli_query($conn,$usercheck);
 $num = mysqli_num_rows($res);
 if($username && $phoneno && $password && $email !== ""){
     if($num >= 1){ echo '
-<div id="snackbar" class="bg-danger show">user already exist</div>
+<div id="snackbar" class="bg-danger show">user already exist !!</div>
 '; } else{ $result = mysqli_query($conn,$sql); echo '
 <div id="snackbar" class="bg-success show">Account Created succesfully</div>
 '; header("location: login.php"); } } else{ echo '
