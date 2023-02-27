@@ -1,12 +1,12 @@
-<?php 
-session_start();
-if(!$_SESSION['user']){
-  echo '<div id="snackbar" >logged in succesfully</div>';
-}
-else{
-      echo '<div id="snackbar" >welcome</div>';
-}
-?>
+ <?php 
+// session_start();
+// if(!$_SESSION['user']){
+//   echo '<div id="snackbar" >logged in succesfully</div>';
+// }
+// else{
+//       echo '<div id="snackbar" >welcome</div>';
+// }
+?> 
 
 <!DOCTYPE html>
 <html lang="en">

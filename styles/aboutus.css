@@ -39,3 +39,32 @@
 .aboutus-icons {
     font-size: 24px;
 }
+
+.fest-icon {
+    height: 40px;
+    width: 70px;
+    background: #d3d2d0c7;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #795548;
+    font-size: 18px;
+}
+
+.feat-heads {
+    font-size: 20px;
+    font-weight: 600;
+    color: #000;
+}
+
+.feat-content {
+    font-size: 16px;
+    font-weight: 400;
+    color: #000;
+    margin-right: 25px;
+}
+
+.featcontentsdiv {
+    margin-left: 25px !important;
+}
