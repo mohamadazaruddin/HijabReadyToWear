@@ -1,0 +1,79 @@
+[
+  {
+    "id": 1,
+    "title": "Bonnet hijab cap",
+    "color": "golden",
+    "price": "111",
+    "image": "../images/cap1.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Bonnet hijab cap",
+    "color": "multicolor",
+    "price": "111",
+    "image": "../images/cap2.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Bonnet hijab cap",
+    "color": "silver",
+    "price": "111",
+    "image": "../images/cap3.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Bonnet hijab cap",
+    "color": "Black",
+    "price": "111",
+    "image": "../images/cap4.jpg"
+  },
+  {
+    "id": 5,
+    "title": "Bonnet hijab cap",
+    "color": "brown",
+    "price": "111",
+    "image": "../images/cap5.jpg"
+  },
+  {
+    "id": 6,
+    "title": "Bonnet hijab cap",
+    "color": "white",
+    "price": "111",
+    "image": "../images/cap6.jpg"
+  },
+  {
+    "id": 7,
+    "title": "Bonnet hijab cap",
+    "color": "white",
+    "price": "111",
+    "image": "../images/cap7.jpg"
+  },
+  {
+    "id": 8,
+    "title": "Bonnet hijab cap",
+    "color": "white",
+    "price": "111",
+    "image": "../images/cap8.jpg"
+  },
+  {
+    "id": 9,
+    "title": "Bonnet hijab cap",
+    "color": "white",
+    "price": "111",
+    "image": "../images/cap9.jpg"
+  },
+  {
+    "id": 10,
+    "title": "Bonnet hijab cap",
+    "color": "white",
+    "price": "111",
+    "image": "../images/cap10.jpg"
+  },
+  {
+    "id": 11,
+    "title": "Bonnet hijab cap",
+    "color": "white",
+    "price": "111",
+    "image": "../images/cap11.jpg"
+  }
+]

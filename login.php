@@ -49,7 +49,35 @@ else{
 
 <body>
 
-    <?php include_once 'loginheader.php'?>
+
+   <div class="text-center">
+      <div class="title" >
+        ENJOY ONLINE HIJAB SHOPING HERE — ALL OVER MUMBAI SHIPPING OPTIONS
+        AVAILABLE
+      </div>
+      <div class="logo">
+        <img src="images/logo.png" width="150px" alt="Hijab Ready To Wear" />
+      </div>
+      <nav class="mynav d-flex justify-content-center bg-dark" >
+        <ul>
+          <li >
+            <a href="/HiJAbREADYTOWEAR/index.php">Home</a>
+          </li>
+          <li>
+            <a href="features.php">Features</a>
+          </li>
+          <li>
+            <a href="aboutus.php">About Us</a>
+          </li>
+             <li>
+            <a href="contactus.php">Contact us</a>
+          </li>
+          <li class="activenav">
+            <a href="login.php">Login</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
     <?php
 if($_SERVER["REQUEST_METHOD"] == "POST"){
     if($error){

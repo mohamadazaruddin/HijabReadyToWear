@@ -32,12 +32,12 @@
   <body>
     <div>
 
-   <div class="text-center"style="background-color: #f9f2e7;">
+   <div class="text-center" style="background-color: #f9f2e7;">
       <div class="title" data-aos="fade-down" data-aos-delay="900">
         ENJOY ONLINE HIJAB SHOPING HERE — ALL OVER MUMBAI SHIPPING OPTIONS
         AVAILABLE
       </div>
-         <div class="container">
+        <div class="container ">
                  <div class="logo d-flex justify-content-between align-items-center" data-aos="flip-up"
                      data-aos-duration="2000">
                      <div class="" onclick="sharefunction()"><i class="fa-solid fa-share-nodes"></i></div>
@@ -56,13 +56,13 @@
           <li>
             <a href="/HiJAbREADYTOWEAR/index.php">Home</a>
           </li>
-          <li class="activenav">
+          <li >
             <a href="./features.php">Features</a>
           </li>
           <li>
             <a href="./aboutus.php">About Us</a>
           </li>
-              <li>
+          <li class="activenav">
             <a href="./contactus.php">Contact us</a>
           </li>
           <li>
@@ -70,91 +70,58 @@
           </li>
         </ul>
       </nav>
-    </div>
-    <div class="aboutus">
-      <div class="container py-5">
-        <div
-          class="d-flex justify-content-around align-items-center w-100 pb-5 border-bottom"
-        >
-          <div class="aboutus-title">
-            <h1>Features of HJijab</h1>
-            <p>Discover Whats makes your Hijab Unique</p>
-          </div>
-          <div class="aboutus-image">
-            <img src="./images/cover_image_6.jpg" />
+      <div class="aboutus">
+        <div class="text-center imgdiv">
+          <div class="concover">
+            <h1>Contact Us</h1>
           </div>
         </div>
-    
-          <div class="row py-5 " >
-            <div
-              class="col-md-4 col-12 col-sm-12 colsoffeature"
-              data-aos="fade-down"
-            >
-<div class="feature_card">
-  <div class="d-flex">
-    <div class="feat-icon"><i class="fa-solid fa-thumbs-up"></i></div>
-    <div class="featcontentsdiv">
-       <p class="feat-heads"> Breathable Fabric</p>
-       <p class="feat-content">
-        The use of breathable fabric in the hijabs to keep customers comfortable throughout the day
-       </p>
-    </div>
-  </div>
+
+        <div class="container">
+          <div class="d-flex justify-content-center">
+            <div class="touch p-3 text-center">
+              <p class="touch-head">Get in Touch with Us</p>
+              <p class="touch-body">
+                Chat with our sales team to discover how our products can work
+                best for you
+              </p>
+              <div
+                class="d-flex justify-content-center align-items-center mt-2"
+              >
+                <div class="feat-icon"><i class="fa-solid fa-phone"></i></div>
+
+                <div class="num">+91 98922 60393</div>
+              </div>
+            </div>
+          </div>
+          <div class="row py-5">
+            <div class="col-12 col-sm-12 col-md-6">
+                <div class="headquarters m-auto">
+                    <h2>Headquarters</h2>
+<div class="city mt-5">
+    Mumbai Maharashtra
 </div>
-          </div>
-            <div
-              class="col-md-4 col-12 col-sm-12 colsoffeature"
-              data-aos="fade-down"
-            >
-<div class="d-flex ">
-    <div class="feat-icon"><i class="fa-solid fa-chart-line"></i></div>
-    <div class="featcontentsdiv">
-       <p class="feat-heads">On-Trend Designs </p>
-       <p class="feat-content">the trendy designs available in the Hijab Ready To Wear collection</p>
-    </div>
-  </div>
-          </div>
-            <div
-              class="col-md-4 col-12 col-sm-12 colsoffeature"
-              data-aos="fade-down"
-            >
-          <div class="d-flex">
-    <div class="feat-icon"><i class="fa-solid fa-hand-point-up"></i></div>
-    <div class="featcontentsdiv">
-       <p class="feat-heads"> Easy to Style</p>
-       <p class="feat-content"> how easy it is to style the hijabs in different ways</p>
-    </div>
-  </div>
-          
-          </div>
-              <div
-              class="col-md-4 col-12 col-sm-12 colsoffeature"
-              data-aos="fade-down"
-            >
-            <div class="d-flex">
-    <div class="feat-icon"><i class="fa-sharp fa-solid fa-face-smile"></i></div>
-    <div class="featcontentsdiv">
-       <p class="feat-heads"> Durability</p>
-       <p class="feat-content">the high-quality materials used to ensure the hijabs are durable and long-lasting</p>
-    </div>
-  </div>
-          </div>
-              <div
-              class="col-md-4 col-12 col-sm-12 colsoffeature"
-              data-aos="fade-down"
-            >
-<div class="d-flex">
-    <div class="feat-icon"><i class="fa-solid fa-bag-shopping"></i></div>
-    <div class="featcontentsdiv">
-       <p class="feat-heads"> Shop Our Collection</p>
-       <p class="feat-content"> Our hijabs and accessories have been hand-picked to keep you feeling comfortable, confident and on trend, sourced by our dedicated style team</p>
-    </div>
-  </div>
-   
+<div class="addr mt-4 flex">
+    <div><div class="addricon">
+<i class="fa-solid fa-location-dot"></i>
+    </div> Plot No. 26/L/2 Shivaji Nagar Govandi Mumbai, Opposite Madina Masjid, Govandi West,Road No. 1 Mumbai - 400043 Maharashtra, India</div>
+    <div class='mt-4 flex' ><div class="addricon">
+        <i class="fa-solid fa-envelope"></i>
+    </div><a href="mailto: hijaab1311@gmail.com">hijaab1311@gmail.com</a></div>
+    <div class='mt-5 flex'> <div class="addricon">
+        <i class="fa-solid fa-phone"></i>
+    </div>+91 98922 60393 (Mon - sat 12pm to 8pm) </div>
+</div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-12 col-md-6 text-center">
+<img src="./images/map.png" class='gmap' alt="">
+            </div>
           </div>
         </div>
       </div>
     </div>
+
     <?php include 'footer.php'?>
     <script>
       AOS.init();

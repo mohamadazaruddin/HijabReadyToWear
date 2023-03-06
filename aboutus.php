@@ -32,7 +32,23 @@
 
   <body>
     <div>
-      <?php include 'header.php'?>
+   
+   <div class="text-center" style="background-color: #f9f2e7;">
+      <div class="title" data-aos="fade-down" data-aos-delay="900">
+        ENJOY ONLINE HIJAB SHOPING HERE — ALL OVER MUMBAI SHIPPING OPTIONS
+        AVAILABLE
+      </div>
+         <div class="container">
+                 <div class="logo d-flex justify-content-between align-items-center" data-aos="flip-up"
+                     data-aos-duration="2000">
+                     <div class="" onclick="sharefunction()"><i class="fa-solid fa-share-nodes"></i></div>
+                     <img src="images/logo.png" width="150px" alt="Hijab Ready To Wear" />
+                     <div> <a href="/HiJAbREADYTOWEAR/carts/mycart.php" style="text-decoration:none;color:black;"><i
+                                 class="fa-solid fa-cart-shopping"></i></a></div>
+                 </div>
+             </div>
+      
+    </div>
       <nav
         class="mynav d-flex justify-content-center bg-dark"
         data-aos="zoom-in"
@@ -66,7 +82,7 @@
             <p>Discover the story of hijab Ready to Wear</p>
           </div>
           <div class="aboutus-image">
-            <img src="./images/cover_image_1.jpg" />
+            <img src="./images/cover_image_7.jpg" />
           </div>
         </div>
         <div class="py-5 border-bottom">
@@ -507,6 +523,25 @@
     <?php include 'footer.php'?>
     <script>
       AOS.init();
+        function sharefunction() {
+
+             const siteurl = "http://localhost/HiJAbREADYTOWEAR/index.php"
+             console.log(siteurl)
+             if (navigator.share) {
+                 navigator.share({
+                         title: 'Hijab Ready To Wear!',
+                         text: 'get started with hijab ready to wear',
+                         url: siteurl
+                     }).then(() => {
+                         console.log('Thanks for sharing!');
+                     })
+                     .catch(err => {
+                         console.log(`Couldn't share because of`, err.message);
+                     });
+             } else {
+                 console.log('web share not supported');
+             }
+         }
     </script>
   </body>
 </html>

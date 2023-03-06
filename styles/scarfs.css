@@ -15,7 +15,6 @@ nav p span {
 }
 
 
-
 .items_card {
     /* width: 250px; */
     margin-right: 15px;
@@ -28,6 +27,7 @@ nav p span {
     display: flex;
 
 }
+
 
 .items_card h2 {
     font-size: 16px;
@@ -50,8 +50,30 @@ nav p span {
     background: #f9f2e7 !important;
 }
 
+.cartbtn {
+    background-color: #000 !important;
+    color: #fff !important;
+    margin-bottom: 10px !important;
+
+}
+
+
+.buybtn {
+    border: 1px solid #000 !important;
+    color: #000 !important;
+}
+
+
+
 @media only screen and (max-width: 768px) {
     .items_card {
         justify-content: space-between;
     }
+
+    .cartbtn {
+        background-color: #000 !important;
+        color: #fff !important;
+        margin-bottom: 10px !important;
+    }
+
 }

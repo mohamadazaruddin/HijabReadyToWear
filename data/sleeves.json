@@ -4,41 +4,34 @@
     "title": "Extension Sleeves",
     "color": "black",
     "price": "149",
-    "image": "./images/extension_sleeves1.jpg"
+    "image": "../images/extension_sleeves1.jpg"
   },
   {
     "id": 2,
     "title": "Extension Sleeves",
     "color": "gray",
     "price": "149",
-    "image": "./images/extension_sleeves2.jpg"
+    "image": "../images/extension_sleeves2.jpg"
   },
   {
     "id": 3,
     "title": "Extension Sleeves",
     "color": "lavender",
     "price": "149",
-    "image": "./images/extension_sleeves3.jpg"
+    "image": "../images/extension_sleeves3.jpg"
   },
   {
     "id": 4,
     "title": "Extension Sleeves",
     "color": "Sky blue",
     "price": "149",
-    "image": "./images/extension_sleeves4.jpg"
+    "image": "../images/extension_sleeves4.jpg"
   },
   {
     "id": 5,
     "title": "Extension Sleeves",
     "color": "biege",
     "price": "149",
-    "image": "./images/extension_sleeves5.jpg"
-  },
-  {
-    "id": 6,
-    "title": "Extension Sleeves",
-    "color": "Sky blue",
-    "price": "149",
-    "image": "./images/extension_sleeves6.jpg"
+    "image": "../images/extension_sleeves5.jpg"
   }
 ]

@@ -8,6 +8,7 @@ html,
 body {
     position: relative;
     height: 100%;
+    background-color: #f9f2e7;
 }
 
 .main {
@@ -240,20 +241,9 @@ ul {
     margin-left: -60px;
 }
 
-.share-div {
-    position: fixed;
-    z-index: 100;
-    bottom: 25px;
-    right: 15px;
-    border-radius: 50%;
-    background: #00060c;
-    width: 35px;
-    height: 35px;
+.anchors {
+    text-decoration: none;
     color: white;
-    font-size: 21px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .shopbtn {
@@ -266,10 +256,18 @@ ul {
     font-weight: 600;
 }
 
+.products_titles {
+    font-size: 28px;
+}
+
 .shopbtn:hover {
     background-color: transparent;
     color: #000;
     border: 2px solid black;
+}
+
+.shopbtn:hover .anchors {
+    color: #000;
 }
 
 footer li {
@@ -505,4 +503,6 @@ footer li a {
         font-weight: 400;
         letter-spacing: 2px;
     }
+
+
 }

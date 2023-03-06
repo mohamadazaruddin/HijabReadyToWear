@@ -14,6 +14,12 @@
     width: 350px;
 }
 
+.gmap {
+    height: 350px;
+    width: 350px;
+    margin: auto;
+}
+
 .sections {
     max-width: 600px;
     margin: auto;
@@ -40,9 +46,9 @@
     font-size: 24px;
 }
 
-.fest-icon {
-    height: 40px;
-    width: 70px;
+.feat-icon {
+    height: 45px;
+    /* width: 40px; */
     background: #d3d2d0c7;
     border-radius: 50%;
     display: flex;
@@ -50,6 +56,8 @@
     justify-content: center;
     color: #795548;
     font-size: 18px;
+    padding: 0px 15px;
+
 }
 
 .feat-heads {
@@ -67,4 +75,115 @@
 
 .featcontentsdiv {
     margin-left: 25px !important;
+}
+
+.colsoffeature {
+    margin-bottom: 25px;
+}
+
+.concover {
+    height: 100%;
+    width: 100%;
+    background: #0000008c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imgdiv {
+    background-image: url(../images/contactus.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+}
+
+.imgdiv h1 {
+    font-size: 60px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.touch {
+    width: 400px;
+    background: #fff;
+    border-radius: 8px;
+    margin-top: -40px;
+
+}
+
+.touch-head {
+    font-size: 20px;
+    font-weight: 600;
+    color: #000;
+}
+
+.touch-body {
+    font-size: 16px;
+    color: #000;
+
+}
+
+.headquarters {
+    width: 60%;
+}
+
+.headquarters h2 {
+    font-weight: 600;
+}
+
+.city {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.num {
+    font-size: 18px;
+    margin-left: 15px;
+}
+
+.addricon {
+    font-size: 18px;
+    padding: 5px 5px 5px 10px;
+    background: #ffcd7d38;
+    border-radius: 50%;
+    /* text-align: center; */
+    /* display: flex; */
+    margin-right: 15px;
+    display: inline-block;
+    border: 1px solid #ffd68c;
+    width: 40px;
+
+}
+
+@media only screen and (max-width: 768px) {
+    .aboutus-image img {
+        height: 150px;
+        width: 150px;
+        margin-left: 20px;
+    }
+
+    .gmap {
+        display: none;
+        margin-left: 20px;
+    }
+
+    .aboutus-title h1 {
+        font-size: 24px;
+        font-weight: 600;
+        color: #000;
+    }
+
+    .aboutus-title p {
+        font-size: 16px;
+        color: #00000094;
+    }
+
+    .colsoffeature {
+        margin-bottom: 25px;
+    }
+
+    .headquarters {
+        width: 100%;
+    }
 }

@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "title": "Magnetic Hijab Pins",
+    "color": "golden",
+    "price": "199",
+    "image": "../images/magnetic_pins1.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Magnetic Hijab Pins",
+    "color": "multicolor",
+    "price": "199",
+    "image": "../images/magnetic_pins2.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Magnetic Hijab Pins",
+    "color": "silver",
+    "price": "199",
+    "image": "../images/magnetic_pins3.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Magnetic Hijab Pins",
+    "color": "Black",
+    "price": "199",
+    "image": "../images/magnetic_pins4.jpg"
+  },
+  {
+    "id": 5,
+    "title": "Magnetic Hijab Pins",
+    "color": "brown",
+    "price": "199",
+    "image": "../images/magnetic_pins5.jpg"
+  },
+  {
+    "id": 6,
+    "title": "Magnetic Hijab Pins",
+    "color": "white",
+    "price": "199",
+    "image": "../images/magnetic_pins6.jpg"
+  }
+]

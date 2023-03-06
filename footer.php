@@ -23,9 +23,8 @@
               <li>
                 <p class="solidtext">Information</p>
               </li>
-              <li><a href="3"> About us</a></li>
-              <li><a href="3"> Terms & condition</a></li>
-              <li><a href="#">Privacy policy</a></li>
+              <li><a href="/aboutus.php"> About us</a></li>
+              <li><a href="/aboutus.php">Privacy policy</a></li>
             </ul>
           </div>
           <div class="col-md-3 col-12 col-sm-12 ">
@@ -34,10 +33,10 @@
               <li>
                 <p class="solidtext">Useful links</p>
               </li>
-              <li><a href="#">Features</a></li>
-              <li><a href="#">Contact us</a></li>
-              <li><a href="#">Login</a></li>
-              <li><a href="#">Feedback</a></li>
+              <li><a href="/features.php">Features</a></li>
+              <li><a href="/contactus.php">Contact us</a></li>
+              <li><a href="/login.php">Login</a></li>
+              <li><a href="">Feedback</a></li>
             </ul>
           </div>
           <div class="col-md-3 col-12 col-sm-12">
