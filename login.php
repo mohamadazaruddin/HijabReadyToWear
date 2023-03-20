@@ -103,7 +103,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                     <button id="login-btn" type="submit">Login</button>
                     <p class="signintext">Doesn't have an Account ? <a href="signup.php">Sign in</a></p>
                 </div>
-
+</form>
         </div>
     </div>
     <?php include 'footer.php'?>

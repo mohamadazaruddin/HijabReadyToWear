@@ -62,12 +62,44 @@
                 </div>
                 <div class='ml-2'><i class="fa-solid fa-arrow-right"></i></div>
             </a>
+       
         </div>
 
         <section class=" myporducts py-4">
             <div class="container">
                 <div class="row" id="scrafrow">
-
+<?php
+include "../db.php";
+$sql = "SELECT * FROM caps";
+$result = mysqli_query($conn, $sql);
+if (mysqli_num_rows($result) > 0) {
+    while($row = mysqli_fetch_assoc($result)) {
+        echo "<div class='col-md-3 col-6 col-sm-6   products' data-aos='fade-down'>
+                     <div class='card' id= " . $row["id"].">
+                          <img src=".$row["image_path"]."
+                             class='card-img-top'
+                             id='card-img'
+                            alt='Scarf Image' />
+                         <div class='card-body' style='box-shadow: 1px -5px 16px 0px #00000038; padding:10px'>
+                             <h5 class='card-title m-0'> " . $row["title"] . "</h5>
+                             <p class='card-text m-0'>" . $row["description"] . " </p>
+                             <p class='price'> <i class='fa-solid fa-indian-rupee-sign'></i>" . $row["price"] . "</p>
+                             <div>
+                             <div class=''>
+                             <button class='btn cartbtn w-100'  onclick ='addtocart(" . $row["id"] . ")'  id='addcart" . $row["id"] ."'> Add to cart</button>
+                              <button class='btn buybtn w-100'><a id='buyanchor' href='https://wa.me/9892260393?text= Hello there I would Like to Buy This" . $row["title"] . "'>Buy Now</a> </button>
+                             </div>
+                             </div>
+                         </div>
+                            
+                     </div>
+                 </div>"; 
+    }
+} else {
+    echo "0 results";
+}
+mysqli_close($conn);
+?>
                 </div>
             </div>
         </section>
@@ -80,34 +112,7 @@
 
         var myVar;
 
-        function myFunction() {
-            fetch("../data/caps.json").then(res => res.json()).then(data => {
-                console.log(data, "data");
-                document.getElementById("scrafrow").innerHTML = data.map((item) => (
-                    `<div class="col-md-3 col-6 col-sm-6   products" data-aos="fade-down" >
-                        <div class="card"  id=${item.id}>
-                             <img src="${item.image}"
-                                class="card-img-top"
-                                id="card-img"
-                               alt="Scarf Image" />
-                            <div class="card-body" style="box-shadow: 1px -5px 16px 0px #00000038; padding:10px">
-                                <h5 class="card-title m-0">${item.title}</h5>
-                                <p class="card-text m-0">${item.color} </p>
-                                <p class="price"> <i class="fa-solid fa-indian-rupee-sign"></i>${item.price}</p>
-                                <div>
-                                <div class="">
-                                <button class="btn cartbtn w-100 "  onclick ="addtocart(${item.id})" id="addcart${item.id}"> Add to cart</button>
-                                <button class="btn buybtn w-100 "> Buy Now</button>
-                                </div>
-                                </div>
-                            </div>
-                            
-                        </div>
-                    </div> `
-                )).join(" ")
-            })
-        }
-
+ 
         function addtocart(id) {
             fetch("../data/caps.json").then(res => res.json()).then(data => {
                 let itemsList = []

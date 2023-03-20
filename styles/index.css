@@ -351,6 +351,11 @@ footer li a {
     font-size: 12px;
 }
 
+#buyanchor {
+    color: #000 !important;
+    text-decoration: none !important;
+}
+
 #snackbar {
     visibility: hidden;
     transform: translateX(-50%);
